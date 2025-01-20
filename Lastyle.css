@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 1440px;
+  margin-inline: auto;
+}
+.top {
+  background-color: aqua;
+  height: 43px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+nav a {
+  font-size: 600;
+  gap: 10px;
+}
+.hero {
+  background-image: url(./images/HeroImage.png);
+  width: 1440px;
+  height: 773px;
+}
+.lang {
+  background-color: white;
+  border-radius: 80%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Sign {
+  gap: 5px;
+}
+.main {
+  width: 1440px;
+  height: 770px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pure {
+  font-weight: 400;
+  font-size: 80px;
+  font-style: normal;
+}
+.await {
+  font-weight: 400;
+  font-size: 250px;
+}
+.year {
+  font-weight: 600;
+  font-size: 84px;
+}
