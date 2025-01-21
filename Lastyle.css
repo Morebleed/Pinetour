@@ -1,21 +1,28 @@
+@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet")
 * {
   box-sizing: border-box;
 }
 .container {
   width: 1440px;
   margin-inline: auto;
+  position: relative;
+}
+header {
+  position: relative;
 }
 .top {
-  background-color: aqua;
-  height: 43px;
+  width: 1204vw;
+  height: 45px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
+  position: absolute;
+  position: fixed;
 }
 nav {
   display: flex;
   justify-content: space-between;
-  width: 300px;
 }
 nav a {
   font-size: 600;
@@ -45,11 +52,14 @@ nav a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  font-family: bebas neue;
 }
 .pure {
   font-weight: 400;
   font-size: 80px;
   font-style: normal;
+  opacity: 40%;
 }
 .await {
   font-weight: 400;
