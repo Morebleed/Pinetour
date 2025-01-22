@@ -1,31 +1,58 @@
-@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet")
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400;700;900&display=swap");
+.hanuman-light {
+  font-family: "Hanuman", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.hanuman-regular {
+  font-family: "Hanuman", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hanuman-bold {
+  font-family: "Hanuman", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.hanuman-black {
+  font-family: "Hanuman", serif;
+  font-weight: 900;
+  font-style: normal;
+}
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 .container {
   width: 1440px;
   margin-inline: auto;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
 header {
-  position: relative;
-}
-.top {
-  width: 1204vw;
+  width: 1204px;
   height: 45px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: relative;
-  position: absolute;
   position: fixed;
 }
 nav {
   display: flex;
+  width: 500px;
   justify-content: space-between;
 }
 nav a {
-  font-size: 600;
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
   gap: 10px;
 }
 .hero {
@@ -53,7 +80,14 @@ nav a {
   justify-content: center;
   align-items: center;
   position: absolute;
-  font-family: bebas neue;
+  color: white;
+}
+.bebas-neue-regular {
+  font-family: "Bebas Neue", serif;
+  font-weight: 400;
+  font-style: normal;
+  box-shadow: -8px -8px 0px 0px rgba(46, 65, 71, 0.4),
+    8px 8px 0px 0px rgba(41, 114, 139, 0.25);
 }
 .pure {
   font-weight: 400;
@@ -68,4 +102,96 @@ nav a {
 .year {
   font-weight: 600;
   font-size: 84px;
+}
+.gray {
+  background-image: url(./images/Location\ image.png);
+  width: 1440px;
+  height: 512px;
+  display: flex;
+  justify-content: space-around;
+}
+.lake {
+  background-image: url("./images/Hover\ card\ image\ \(1\).png");
+  width: 275.49px;
+  height: 370px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15%;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+.lake:hover {
+  background-color: darkblue;
+  font-size: 45px;
+}
+.monk {
+  background-image: url(./images/Untitled.png);
+  width: 275.49px;
+  height: 370px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15%;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+.monk:hover {
+  background-color: darkblue;
+  font-size: 45px;
+}
+.khu {
+  background-image: url("./images/Hover\ card\ image\ \(2\).png");
+  width: 275.49px;
+  height: 370px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15%;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+.khu:hover {
+  background-color: darkblue;
+  font-size: 45px;
+}
+.crater {
+  background-image: url("./images/Hover\ card\ image.png");
+  width: 275.49px;
+  height: 370px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15%;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+.crater:hover {
+  background-color: darkblue;
+  font-size: 45px;
+}
+.pinbros {
+  background-image: url("./images/Roadmap\ image.png");
+  width: 1440px;
+  height: 1022px;
+}
+.price {
+  background-image: url("./images/Price&Footer\ image.png");
+  width: 1440px;
+  height: 1120px;
 }
