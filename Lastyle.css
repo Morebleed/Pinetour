@@ -198,19 +198,196 @@ nav a {
 }
 .bros {
   font-family: "inter";
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
 .sukh {
   width: 513px;
   height: 112px;
   background-color: #eee9d9;
-  border-radius: 40px;
+  border-radius: 80px;
   border-color: white;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "inter";
+  font-weight: 500;
+  font-size: 24px;
+  padding-left: 30px;
+  opacity: 70%;
 }
 .sukh:hover {
+  border: 2px solid white;
   cursor: pointer;
 }
+.ub {
+  font-size: 12px;
+  font-weight: 400px;
+}
+.d1 {
+  background-color: white;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  position: absolute;
+  left: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+.amo {
+  width: 513px;
+  height: 112px;
+  background-color: #8bb8c1cc;
+  border-radius: 80px;
+  border-color: white;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "inter";
+  font-weight: 500;
+  font-size: 24px;
+  padding-left: 30px;
+  position: absolute;
+  top: 130px;
+}
+.amo:hover {
+  border: 2px solid white;
+  cursor: pointer;
+}
+.amar {
+  font-size: 12px;
+  font-weight: 400px;
+}
+.d2 {
+  background-color: white;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  position: absolute;
+  left: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+.togoo {
+  width: 513px;
+  height: 112px;
+  background-color: #aad8d7cc;
+  border-radius: 80px;
+  border-color: white;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "inter";
+  font-weight: 500;
+  font-size: 24px;
+  padding-left: 30px;
+  position: absolute;
+  top: 260px;
+}
+.togoo:hover {
+  border: 2px solid white;
+  cursor: pointer;
+}
+.khorgo {
+  font-size: 12px;
+  font-weight: 400px;
+}
+.d3 {
+  background-color: white;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  position: absolute;
+  left: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+.tsag {
+  width: 513px;
+  height: 112px;
+  background-color: #8bc0bdcc;
+  border-radius: 80px;
+  border-color: white;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "inter";
+  font-weight: 500;
+  font-size: 24px;
+  padding-left: 30px;
+  position: absolute;
+  top: 390px;
+}
+.tsag:hover {
+  border: 2px solid white;
+  cursor: pointer;
+}
+.terkhi {
+  font-size: 12px;
+  font-weight: 400px;
+}
+.d4 {
+  background-color: white;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  position: absolute;
+  left: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+.gulag {
+  width: 513px;
+  height: 112px;
+  background-color: #97cce0cc;
+  border-radius: 80px;
+  border-color: white;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "inter";
+  font-weight: 500;
+  font-size: 24px;
+  padding-left: 30px;
+  position: absolute;
+  top: 520px;
+}
+.gulag:hover {
+  border: 2px solid white;
+  cursor: pointer;
+}
+.khuv {
+  font-size: 12px;
+  font-weight: 400px;
+}
+.d5 {
+  background-color: white;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  position: absolute;
+  left: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
 
-hello .price {
+.price {
   background-image: url("./images/Price&Footer\ image.png");
   width: 1440px;
   height: 1120px;
