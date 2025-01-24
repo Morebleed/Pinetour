@@ -100,7 +100,7 @@ nav a {
   color: white;
 }
 .lake:hover {
-  background-color: darkblue;
+  color: black;
   font-size: 45px;
   opacity: 50%;
   cursor: pointer;
@@ -225,6 +225,7 @@ nav a {
 .ub {
   font-size: 12px;
   font-weight: 400px;
+  object-fit: contain;
 }
 .d1 {
   background-color: white;
